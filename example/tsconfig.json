@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "razer-pay-react-native": ["../src/index"],
+      "razer-pay-react-native/*": ["../src/*"]
+    }
+  }
+}
